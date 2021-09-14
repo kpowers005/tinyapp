@@ -1,0 +1,14 @@
+#body
+{
+  background-color: blueviolet;
+  height: 800px;
+  text-align: center;
+}
+
+
+.tinystuff
+{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
