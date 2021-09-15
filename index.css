@@ -39,6 +39,9 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color: royalblue;
+  color: aliceblue;
 }
 
 .tinystuff
@@ -47,4 +50,18 @@
   justify-content: space-between;
   align-items: center;
   font-size: 80px;
+  width: 100%;
+}
+
+.tinyMain
+{
+  text-align: center;
+  font-size: 30px;
+}
+
+#carousel
+{
+  color: rgb(98, 6, 114);
+  font-weight: 600;
+  font-style: italic;
 }
