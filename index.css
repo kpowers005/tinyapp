@@ -44,8 +44,8 @@
   align-items: center;
   height: 100vh;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  background-color: royalblue;
-  color: aliceblue;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
 }
 
 .tinystuff
@@ -65,17 +65,15 @@
 
 #carousel
 {
-  color: rgb(98, 6, 114);
+  color:#f03e56;
   font-weight: 600;
   font-style: italic;
 }
 
-.grave
+button
 {
-  color: grey;
-}
-
-.black
-{
-  background-color: black;
+  background: none;
+  border: none;
+  font-size: 50px;
+  color: black;
 }
