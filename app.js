@@ -14,6 +14,11 @@ window.addEventListener('DOMContentLoaded', () => {
 
   back.addEventListener('click', () => {
     let rotate = links.pop()
+    if (rotate === 'grave') {
+      carousel.classList.add('grave')
+      let body = document.getElementById('body')
+      body.classList.add('black')
+    }
     links.unshift(rotate)
     carousel.innerText = links[0]
   })

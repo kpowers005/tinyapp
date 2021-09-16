@@ -7,18 +7,22 @@
 {
   position: absolute;
   left: 20%;
+  user-select: none;
 }
 
 #forwardArrow
 {
   position: absolute;
   right: 20%;
+  user-select: none;
 }
 .navLinks
 {
   display: flex;
   justify-content: space-around;
+  align-items: center;
   list-style: none;
+  font-size: larger;
 }
 
 
@@ -64,4 +68,14 @@
   color: rgb(98, 6, 114);
   font-weight: 600;
   font-style: italic;
+}
+
+.grave
+{
+  color: grey;
+}
+
+.black
+{
+  background-color: black;
 }
